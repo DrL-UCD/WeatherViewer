@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
                 try {
                     String url1 = "https://api.openweathermap.org/data/2.5/weather?q=";
-                    String url2 = "&APPID=f74fb911c142570055fe3ffd72a514fe";   //Replace xxxx with your own key
+                    String url2 = "&APPID=xxxxxxxxxxxxxxxxxxxxxx";   //Replace xxxx with your own key
                     String url = url1 + location + url2;
 
                     URL webUrl = new URL (url);
